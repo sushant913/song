@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Radio - Lana Del Rey</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;400;700&family=Space+Mono&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="theme-toggle">
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle" />
+      <span class="slider round"></span>
+    </label>
+    <span class="toggle-text">Dark Mode</span>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <div class="vinyl-record">
+        <div class="vinyl-center"></div>
+      </div>
+      <div class="title-container">
+        <h1>Radio</h1>
+        <p class="artist">Lana Del Rey</p>
+        <p class="album">From the album "Born to Die" (2012)</p>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="image-container reveal">
+        <img src="hqdefault.jpg" alt="Lana Del Rey - Radio mood image" />
+        <div class="play-button">
+          <div class="triangle"></div>
+        </div>
+        <!-- Audio Player -->
+        <audio id="song" src="ytmp3free.cc_radio-youtubemp3free.org.mp3"></audio>
+      </div>
+
+      <div class="info-panel reveal">
+        <h3>About the Song</h3>
+        <p>
+          "Radio" is a triumphant track about overcoming challenges and finding success. The song showcases Lana's signature dreamy vocals alongside upbeat production.
+        </p>
+        <div class="quote">
+          <blockquote>"This song represents freedom and elevation above difficulties."</blockquote>
+        </div>
+      </div>
+
+      <div class="lyrics-container reveal">
+        <h3>Lyrics Excerpt</h3>
+        <div class="lyrics">
+          <p>Not even they can stop me now</p>
+          <p>Boy, I'll be flying overhead</p>
+          <p>Their heavy words can't bring me down</p>
+          <p>Boy, I've been raised from the dead</p>
+          <p>No one even knows how hard life was</p>
+          <p>I don't even think about it now because</p>
+          <p class="chorus">Now my life is sweet like cinnamon</p>
+          <p class="chorus">Like a dream I'm living in</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="social-icons">
+        <span class="icon">♫</span>
+        <span class="icon">♡</span>
+        <span class="icon">✉</span>
+      </div>
+      <p class="note">Created for educational purposes only</p>
+    </footer>
+  </div>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
